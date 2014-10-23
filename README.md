@@ -1,12 +1,12 @@
-An example of Tidy Data preparation in R
+#### An example of Tidy Data preparation in R
 
-The accompanying file “PhoneMovementMeasures.txt” contains a tidy data set derived from a course called “Getting and Cleaning Data” taught by Jeff Leek from the Johns Hopkins Bloomberg School of Public Health and delivered online via Coursera. The data come originally from Davide Anguita et al. (2012).
+The accompanying file *PhoneMovementMeasures.txt* contains a tidy data set derived from a course called *Getting and Cleaning Data* taught by Jeff Leek from the Johns Hopkins Bloomberg School of Public Health and delivered online via Coursera. The data come originally from Davide Anguita et al. (2012).
 
-The data were collected in an experiment in which 30 people performed six different activities (i.e. walking, walking up stairs, walking down stairs, sitting, standing, lying down) while wearing Samsung phones that contained an accelerometer and gyroscope. The data recorded by the phones’ sensors during these distinct activities were processed to yield measures of acceleration and velocity in three-dimensional space.
+The data were collected in an experiment in which 30 people performed six different activities (i.e. walking, walking up stairs, walking down stairs, sitting, standing, lying down) while wearing Samsung phones that contained an accelerometer and gyroscope. The data recorded by the phones? sensors during these distinct activities were processed to yield measures of acceleration and velocity in three-dimensional space.
 
-More information about data collection, data processing and derivation of the variables can be found in the README file provided by the original researchers (appended below in its original form). More information about the variables contained in the file “PhoneMovementMeasures.txt” can be found in the file “Codebook.md”
+More information about data collection, data processing and derivation of the variables can be found in the README file provided by the original researchers (appended below in its original form). More information about the variables contained in the file *PhoneMovementMeasures.txt* can be found in the file *Codebook.md*
 
-My work consisted of cleaning and amalgamating some of the files that were downloaded from the web. The R code for the entire process is contained in the file “run_analyis.R”. Running this code will reproduce the file “PhoneMovementMeasures.txt”. Briefly, the process entails downloading the original data set, loading and joining some of the files, removing some of the variables, modifying the original variable names and calculating the mean of each variable for each combination of activity and subject.
+**The work for this project consisted of cleaning and amalgamating some of the files that were downloaded from the web. The R code for the entire process is contained in the file *run_analyis.R*. Running this code will reproduce the file *PhoneMovementMeasures.txt*. Briefly, the process entails downloading the original data set, loading and joining some of the files, removing some of the variables, modifying the original variable names and calculating the mean of each variable for each combination of activity and subject.**
 
 Copy of README file provided by the researchers:
 ==================================================================
@@ -15,7 +15,7 @@ Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
+DITEN - Universit? degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
